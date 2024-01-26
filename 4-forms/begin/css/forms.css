@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg)
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #99BBE1;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p, [for="abtype"] {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 1rem;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 1.5rem 0 1.1rem 0;
+	border: 1px solid orange;
+}
+label {
+	display: block;
+}
+textarea {
+	height: 25rem;
+	padding: .5rem;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: #FCBEAA;
+	color: #B0594E;
+	border:none;
+	padding: .5rem;
+	border-radius: 10px;
+}
+button:hover {
+	background-color: #B0594E;
+	color: #FCBEAA;
+}
+input:not([type="radio"]) :not([type="checkbox"]), textarea, select {
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0rem;
+	/*this made the radio buttons look bad b/c they are also an input. So, we added the NOT tag up top*/
+	/*this is now applied to: inputs, textareas, and the select box, and NOT radios or checkboxes. We do this with a more advanced CSS SELECTOR*/
+	border-radius:.5rem;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
